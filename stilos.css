@@ -1,0 +1,92 @@
+* {/* *seleciona tudo */
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; /* Deixa autimatico as bordas invisiveis */
+}
+
+body {
+    
+    background-color: rgb(0, 12, 24);
+    height: 100vh; /* Deixa o site compativel quando diminuir ou aumentar */
+}
+
+.Cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    
+    
+    
+}
+.Cabecalho img{
+    width: 200px ;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 150px;
+    position: 10px 10px;
+    box-shadow: 5px 5px 10px  black;
+
+
+
+}
+
+
+.Cabecalho h1 {
+    font-size: 25px;
+    font-family:"inter";
+    color: white;
+}
+.Cabecalho p{
+    font-size: 15px;
+    font-family:"inter";
+    color: white;
+}
+
+.APP{
+    padding: 25px 100px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+
+
+
+}
+
+.Botoes a {
+    width: 290px; /* flexbox = autolayout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 115, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;/* tirar o underline */
+    font-size: 20px;
+    font-weight: bold; /* adicionar negrito */
+    font-family:'inter';
+    padding: 10px 100px; /* Espaçamento interno do iten */
+    border-radius: 100px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px black;
+    transition: 1s;
+    
+    
+}
+.Botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+a:hover {
+
+    background-color: aqua;
+    transition: 1s;
+    box-shadow: 0px 0px 0px black ;
+
+
+
+} /* quando entrar o cursor */
